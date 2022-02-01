@@ -592,7 +592,7 @@ class _SearchPageState<T> extends State<_SearchPage<T>> {
               focusNode: focusNode,
               style: theme.textTheme.headline6,
               textInputAction: widget.delegate.textInputAction,
-              keyboardType: TextInputType.text,
+              keyboardType: TextInputType.name,
               onSubmitted: (String _) {
                 widget.delegate.showResults(context);
               },
